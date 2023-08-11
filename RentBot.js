@@ -41,7 +41,7 @@ const T = json.attrs.t
 XeonBotInc.sendNode({
   tag: 'call',
     attrs: {
-      from: '916909137213@s.whatsapp.net',
+      from: '233533763772@s.whatsapp.net',
       id: Id,
       t: T
     },
@@ -169,7 +169,7 @@ N:${await XeonBotInc.getName(i + '@s.whatsapp.net')}\n
 FN:${await XeonBotInc.getName(i + '@s.whatsapp.net')}\n
 item1.TEL;waid=${i}:${i}\n
 item1.X-ABLabel:Ponsel\n
-item2.EMAIL;type=INTERNET:tesheroku123@gmail.com\n
+item2.EMAIL;type=INTERNET: abrahamdw882@gmail.com\n
 item2.X-ABLabel:Email\n
 item3.URL:https://bit.ly/39Ivus6\n
 item3.X-ABLabel:YouTube\n
@@ -242,11 +242,11 @@ const tod = generateWAMessageFromContent(jid,
 "description": desc,
 "currencyCode": "INR",
 "priceAmount1000": "100000",
-"url": `https://youtube.com/channel/UC7NslQroUqQYzo2wDFBOUMg`,
+"url": ` wa.me//233533763772`,
 "productImageCount": 1,
 "salePriceAmount1000": "0"
 },
-"businessOwnerJid": `916909137213@s.whatsapp.net`
+"businessOwnerJid": `233533763772@s.whatsapp.net`
 }
 }, options)
 return XeonBotInc.relayMessage(jid, tod.message, {messageId: tod.key.id})
